@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Modul_1_Мацкевич
+namespace Solution_1
 {
     internal class Program
     {
