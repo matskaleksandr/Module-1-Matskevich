@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные с этой сборкой.
-[assembly: AssemblyTitle("Modul 1 Мацкевич")]
+[assembly: AssemblyTitle("Solution 1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Modul 1 Мацкевич")]
+[assembly: AssemblyProduct("Solution 1")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID представляет идентификатор typelib, если этот проект доступен из модели COM
-[assembly: Guid("73d14957-4e87-49d6-959b-5448d6d89f1b")]
+[assembly: Guid("1799f889-3702-461a-bb2f-8041fa686ba7")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
