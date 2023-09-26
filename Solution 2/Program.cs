@@ -10,20 +10,22 @@ namespace Solution_2
     {
         static void Main(string[] args)
         {
-            double radius;
-            string radiusInput;
-            double area = 0;
+            double radius;//Переменная для хранения радиуса круга
+            string radiusInput;//Строковая переменная для хранения введенного радиуса
+            double area = 0;//Переменная для хранения площади круга
             try
             {
                 do
                 {
                     Console.Write("Введите радиус круга: ");
-                    radiusInput = Console.ReadLine();
+                    radiusInput = Console.ReadLine();//Запрос радиуса у пользователя
+                    //Повторять ввод, пока не будет введено корректное число
                 }
                 while (!double.TryParse(radiusInput, out radius));
                 if (radius >= 0)
                 {
-                    area = Math.PI * radius * radius;
+                    area = Math.PI * radius * radius;//Вычисление площади круга
+                    //Вывод площади круга с заданным радиусом
                     Console.WriteLine($"Площадь круга с радиусом {radius} равна: {area}");
                 }
                 else
@@ -31,9 +33,9 @@ namespace Solution_2
                     Console.WriteLine("Радиус не может быть отрицательным");
                 }
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                Console.WriteLine(e.ToString());
+                Console.WriteLine(e.ToString());//Перехват и вывод сообщений об ошибках, если они возникают во время выполнения
             }
         }
     }

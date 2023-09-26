@@ -11,29 +11,31 @@ namespace Solution_3
     {
         static void Main(string[] args)
         {
+            string surname = "";//Переменная для хранения фамилии
+            string name = "";//Переменная для хранения имени
+            string pattern = @"^[А-ЯЁ][а-яё]*$";//Шаблон для проверки ввода: начинается с заглавной буквы, остальные маленькие
             try
             {
-                string surname = "";
-                string name = "";
-                string pattern = @"^[А-ЯЁ][а-яё]*$";
                 Console.WriteLine("Введите фамилию");
                 do
                 {
-                    surname = Console.ReadLine();
+                    surname = Console.ReadLine();//Чтение фамилии
+                    //Повторять ввод, пока не будет введена корректная фамилия
                 }
-                while (!Regex.IsMatch(surname, pattern));
+                while (!Regex.IsMatch(surname, pattern));//Проверка ввода по шаблону
                 Console.WriteLine("Введите имя");
                 do
                 {
-                    name = Console.ReadLine();
+                    name = Console.ReadLine();//Чтение имени
+                    //Повторять ввод, пока не будет введено корректное имя
                 }
-                while (!Regex.IsMatch(name, pattern));
+                while (!Regex.IsMatch(name, pattern));//Проверка ввода по шаблону
                 Console.WriteLine();
-                Console.WriteLine($"{surname}, {name}");
+                Console.WriteLine($"{surname}, {name}");//Вывод фамилии и имени
             }
-            catch(Exception e)
+            catch (Exception e)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine(e.Message);//Перехват и вывод сообщений об ошибках, если они возникают во время выполнения
             }
         }
     }
