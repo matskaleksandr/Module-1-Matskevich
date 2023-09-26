@@ -10,6 +10,8 @@ namespace Solution_2
     {
         static void Main(string[] args)
         {
+            
+            
         }
     }
 }

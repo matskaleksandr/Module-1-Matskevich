@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{73D14957-4E87-49D6-959B-5448D6D89F1B}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Modul_1_Мацкевич</RootNamespace>
-    <AssemblyName>Modul 1 Мацкевич</AssemblyName>
+    <RootNamespace>Solution_1</RootNamespace>
+    <AssemblyName>Solution 1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
